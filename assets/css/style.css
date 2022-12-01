@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+body {
+  background-color: rgb(27, 26, 26);
+}
+section {
+  display: flex;
+  padding-top: 120px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  margin-top: 30px;
+}
+.logo img {
+  width: 200px;
+}
+.titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.titulo h1 {
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-family: "Fredoka One", cursive;
+}
+.titulo p {
+  font-family: "poppins";
+  padding: 10px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+.content a:first-child {
+  margin-top: 20px;
+}
+
+.content a {
+  text-decoration: none;
+  font-family: "poppins";
+  padding: 10px 40px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+.content a:last-child {
+  background-color: crimson;
+}
